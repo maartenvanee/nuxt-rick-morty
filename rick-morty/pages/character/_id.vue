@@ -38,10 +38,9 @@ export default {
   },
   methods: {
     setEpisodes() {
-      this.episodes = this.character.episode.map(text => {
-        const nr = text.split("episode/").pop();
-        return nr;
-      });
+      this.episodes = this.character.episode.map(text =>
+        text.split("episode/").pop()
+      );
     }
   }
 };
