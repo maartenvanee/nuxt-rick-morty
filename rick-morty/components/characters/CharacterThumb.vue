@@ -1,11 +1,11 @@
 <template>
   <div class="character-thumb">
-    <router-link :to="{ name: 'character', params: {id: character.id } }">
+    <nuxt-link :to="{ name: 'character-id', params: {id: character.id } }">
       <h3>{{character.name}}</h3>
       <img v-bind:src="character.image" />
       <p>{{character.status}}, {{character.species}}, {{character.gender}}</p>
       <p>{{character.origin.name}}</p>
-    </router-link>
+    </nuxt-link>
   </div>
 </template>
 
