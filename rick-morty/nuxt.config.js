@@ -4,14 +4,14 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: "Rick and Morty",
+    titleTemplate: title => (title ? title + " - " : "") + "Rick and Morty",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: process.env.npm_package_description || ""
+        content: "The Rick and Morty app"
       }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]

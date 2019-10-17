@@ -1,6 +1,6 @@
 <template>
   <div class="page-characters">
-    <h2>Characters</h2>
+    <h2>{{title}}</h2>
     <CharacterList />
   </div>
 </template>
@@ -11,6 +11,16 @@ import CharacterList from "~/components/characters/CharacterList.vue";
 export default {
   components: {
     CharacterList
+  },
+  data() {
+    return {
+      title: "Characters"
+    };
+  },
+  head() {
+    return {
+      title: this.title
+    };
   }
 };
 </script>
