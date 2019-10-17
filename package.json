@@ -1,0 +1,17 @@
+{
+  "name": "rick-morty",
+  "version": "1.0.0",
+  "description": "Rick and Morty on Nuxt",
+  "author": "Maarten van Ee",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {}
+}
