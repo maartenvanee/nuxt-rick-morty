@@ -1,7 +1,7 @@
 <template>
-  <div class="page-index">
+  <div class="page-characters">
     <Header />
-    <h1>Index</h1>
+    <h1>Characters page</h1>
   </div>
 </template>
 

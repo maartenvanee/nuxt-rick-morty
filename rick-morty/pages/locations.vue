@@ -1,7 +1,7 @@
 <template>
-  <div class="page-index">
+  <div class="page-locations">
     <Header />
-    <h1>Index</h1>
+    <h1>Locations page</h1>
   </div>
 </template>
 
