@@ -1,6 +1,5 @@
 <template>
   <div class="page-characters">
-    <Header />
     <h1>Characters page</h1>
   </div>
 </template>

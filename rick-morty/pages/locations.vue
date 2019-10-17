@@ -1,6 +1,5 @@
 <template>
   <div class="page-locations">
-    <Header />
     <h1>Locations page</h1>
   </div>
 </template>
