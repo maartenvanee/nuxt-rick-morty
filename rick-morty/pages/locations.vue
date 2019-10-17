@@ -1,18 +1,16 @@
 <template>
   <div class="page-locations">
-    <h1>Locations page</h1>
+    <h2>Locations</h2>
+    <LocationList />
   </div>
 </template>
 
 <script>
-import Header from "~/components/Header.vue";
+import LocationList from "~/components/locations/LocationList.vue";
 
 export default {
   components: {
-    Header
+    LocationList
   }
 };
 </script>
-
-<style>
-</style>

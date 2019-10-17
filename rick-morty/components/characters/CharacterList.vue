@@ -29,7 +29,8 @@ export default {
     };
   },
   mounted() {
-    axios.get(this.characterUrl + this.ids).then(response => {
+    const url = this.ids ? this.characterUrl + this.ids : this.characterUrl;
+    axios.get(url).then(response => {
       if (this.ids) {
         this.charactersData = response.data;
       } else {
@@ -54,7 +55,3 @@ export default {
   }
 };
 </script>
-
-
-<style scoped lang="scss">
-</style>

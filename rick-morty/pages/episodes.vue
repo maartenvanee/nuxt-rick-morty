@@ -1,18 +1,16 @@
 <template>
   <div class="page-episodes">
-    <h1>Episodes page</h1>
+    <h2>Episodes</h2>
+    <EpisodeList />
   </div>
 </template>
 
 <script>
-import Header from "~/components/Header.vue";
+import EpisodeList from "~/components/episodes/EpisodeList.vue";
 
 export default {
   components: {
-    Header
+    EpisodeList
   }
 };
 </script>
-
-<style>
-</style>

@@ -1,16 +1,15 @@
 <template>
   <div class="page-index">
-    <h1>Index</h1>
-    <!-- <CharacterList /> -->
+    <CharacterList ids="1,2" />
   </div>
 </template>
 
 <script>
-import Header from "~/components/Header.vue";
+import CharacterList from "~/components/characters/CharacterList.vue";
 
 export default {
   components: {
-    Header
+    CharacterList
   }
 };
 </script>

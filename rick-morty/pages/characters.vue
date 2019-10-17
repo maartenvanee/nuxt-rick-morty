@@ -1,15 +1,16 @@
 <template>
   <div class="page-characters">
-    <h1>Characters page</h1>
+    <h2>Characters</h2>
+    <CharacterList />
   </div>
 </template>
 
 <script>
-import Header from "~/components/Header.vue";
+import CharacterList from "~/components/characters/CharacterList.vue";
 
 export default {
   components: {
-    Header
+    CharacterList
   }
 };
 </script>
