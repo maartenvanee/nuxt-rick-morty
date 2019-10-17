@@ -30,7 +30,8 @@ export default {
 <style scoped lang="scss">
 .header {
   display: block;
-  width: 100%;
+  position: relative;
+  width: 100vw;
   background-color: rgb(232, 232, 238);
   padding: $spacing;
 
@@ -40,7 +41,7 @@ export default {
 
   ul.menu {
     position: absolute;
-    right: 0px;
+    right: 10px;
     top: 0;
     padding: $spacing;
     display: inline-block;
